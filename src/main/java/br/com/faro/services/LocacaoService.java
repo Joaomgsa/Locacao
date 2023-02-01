@@ -35,7 +35,7 @@ public class LocacaoService {
         //Cenario
         LocacaoService service = new LocacaoService();
         Usuario usuario = new Usuario("joaomgsa");
-        Filme filme = new Filme("A gangue dos Dobermans ", 2 ,7.99);
+        Filme filme = new Filme("A gangue dos Dobermans ", 2 ,5.0);
 
         //Ação
 
@@ -44,7 +44,7 @@ public class LocacaoService {
         //Verificação
         System.out.println(locacao.getValor() == 5.0);
         System.out.println(DataUtils.isMesmaData(locacao.getDataLocacao(),new Date()));
-        System.out.println(DataUtils.isMesmaData(locacao.getDataRetorno(),DataUtils.obterDataComDiferencaDias(1)));
+        System.out.println(DataUtils.isMesmaData(locacao.getDataRetorno(),DataUtils.obterDataComDiferencaDias(2)));
     }
 
 }

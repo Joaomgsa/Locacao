@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42e4b176-7f7e-4684-94f3-90d067b179b7" name="Changes" comment="">
+    <list default="true" id="42e4b176-7f7e-4684-94f3-90d067b179b7" name="Changes" comment="removendo classe main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/faro/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/faro/services/LocacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/faro/services/LocacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/faro/utils/DataUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/faro/utils/DataUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +71,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675129023781</updated>
     </task>
+    <task id="LOCAL-00001" summary="removendo classe main">
+      <created>1675212340467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675212340467</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,5 +91,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removendo classe main" />
+    <option name="LAST_COMMIT_MESSAGE" value="removendo classe main" />
   </component>
 </project>

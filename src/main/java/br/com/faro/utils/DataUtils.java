@@ -32,8 +32,8 @@ public class DataUtils {
         Calendar calendar1 = Calendar.getInstance();
         calendar1.setTime(data1);
         Calendar calendar2 = Calendar.getInstance();
-        calendar1.setTime(data2);
-        return (calendar1.get(DAY_OF_MONTH)== calendar2.get(DAY_OF_MONTH))
+        calendar2.setTime(data2);
+        return (calendar1.get(DAY_OF_MONTH) == calendar2.get(DAY_OF_MONTH))
                 && (calendar1.get(MONTH) == calendar2.get(MONTH))
                 && (calendar1.get(YEAR) == calendar2.get(YEAR));
     }
