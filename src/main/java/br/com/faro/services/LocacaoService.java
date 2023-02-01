@@ -7,10 +7,10 @@ import br.com.faro.utils.DataUtils;
 import org.junit.jupiter.api.Test;
 
 import java.util.Date;
-import java.util.Scanner;
+
 
 import static br.com.faro.utils.DataUtils.adicionarDias;
-import static br.com.faro.utils.DataUtils.obterDataComDiferencaDias;
+
 
 public class LocacaoService {
 
@@ -44,7 +44,7 @@ public class LocacaoService {
         //Verificação
         System.out.println(locacao.getValor() == 5.0);
         System.out.println(DataUtils.isMesmaData(locacao.getDataLocacao(),new Date()));
-        System.out.println(DataUtils.isMesmaData(locacao.getDataRetorno(),obterDataComDiferencaDias(1)));
+        System.out.println(DataUtils.isMesmaData(locacao.getDataRetorno(),DataUtils.obterDataComDiferencaDias(1)));
     }
 
 }
